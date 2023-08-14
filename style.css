@@ -1,0 +1,33 @@
+h2{
+    color: blue; 
+    font-size: x-large; 
+    font-style: italic";
+    
+    }
+    header{
+        text-align: center;
+    }
+    section{
+        margin-top: 2rem;
+        padding: 2rem;
+        
+        border-style: dashed;   
+    }
+    .buttons p{
+        text-align: center;
+        color: blue;
+        margin-left: 4 rem;
+    }
+    .buttons{
+        display: flex;
+        padding: 1 rem;
+        
+        align-content: center;
+    }
+    button{
+     color: blue;
+     font-size: x-large;
+     padding: 2rem;
+     width: 20%;
+     margin-top: 2rem;
+    }
