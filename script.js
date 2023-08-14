@@ -62,6 +62,7 @@ function compareChoices(){
         if(computer.choice=="rock"){
             playerScore+=1;
         }
+    }
         else{
             if(player.choice=="scissors"){
                 if(computer.choice=="paper"){
@@ -73,7 +74,7 @@ function compareChoices(){
             }
         }
     }
-}
+
 function result(){
 const displayResult=document.getElementById("displayResult");
 

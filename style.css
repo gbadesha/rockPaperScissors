@@ -21,7 +21,7 @@ h2{
     .buttons{
         display: flex;
         padding: 1 rem;
-        
+        justify-content: space-between;
         align-content: center;
     }
     button{
