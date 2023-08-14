@@ -55,7 +55,8 @@ function compareChoices(){
         if(computer.choice=="paper"){
             computerScore+=1;
         }
-    } else if(player.choice=="paper"){
+    } 
+     if(player.choice=="paper"){
         if(computer.choice=="scissors"){
             computerScore+=1;
         }
@@ -63,7 +64,7 @@ function compareChoices(){
             playerScore+=1;
         }
     }
-        else{
+        
             if(player.choice=="scissors"){
                 if(computer.choice=="paper"){
                     playerScore+=1;
@@ -73,7 +74,7 @@ function compareChoices(){
                 }
             }
         }
-    }
+    
 
 function result(){
 const displayResult=document.getElementById("displayResult");
